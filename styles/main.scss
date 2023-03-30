@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    header {
+        width: 800px;
+        background-color: #3D5A80;
+        margin: 50px auto;
+        border-radius: 5px;
+        padding: 25px;
+        
+    h3 {
+        font-size: 30px;
+        color: white;
+        padding-bottom: 15px;
+        }
+
+    h4 {
+        font-size: 25px;
+        color: white;
+        padding-bottom: 15px;
+        }
+    }
+
+    .menu {
+        width: 800px;
+        margin: 20px auto;
+        background-color: #3D5A80;
+        padding: 20px ;
+        border-radius: 5px;
+
+    input {
+            all: unset;
+            width: 750px;
+            height: 35px;
+            padding-left: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+    button {
+        all: unset;
+        width: 140px;
+        height: 35px;
+        padding-left: 10px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: -5px;
+        transition: 1s ease;
+    }
+    .people {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .up {
+        border-radius: 0px;
+    }
+    .zp {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    button:hover {
+        color: black;
+        background-color: white;
+    }
+}
+.peoples {
+    width: 800px;
+    margin: 0 auto;
+}
+footer {
+    width: 800px;
+    background-color: #3D5A80;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 5px;
+
+h4 {
+        font-size: 25px;
+        color: white;
+        padding-bottom: 20px;
+}
+input {
+    all: unset;
+    width: 230px;
+    padding-left: 10px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+button {
+    all: unset;
+    width: 90px;
+    height: 35px;
+    padding-left: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 1s ease;
+
+}
+button:hover {
+        color: black;
+        background-color: white;
+    }
+} 
+}
